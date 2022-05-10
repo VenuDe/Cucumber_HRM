@@ -45,6 +45,7 @@ public class Test_Defination {
 		public void login_successfull_message() {
 			Assert.assertEquals(driver.getTitle(), "OrangeHRM");
 			driver.getCurrentUrl();
+			driver.getTitle();
 		}
 		
 		@Then("close")
